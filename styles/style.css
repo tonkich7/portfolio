@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
 }
@@ -51,4 +52,8 @@ ul li a.active {
 h4, h3{
   padding: 0; /* Removes inner spacing */
   margin: 0;  /* Removes outer spacing */
+}
+
+.lang-switch {
+  float: right;
 }
