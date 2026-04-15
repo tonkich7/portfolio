@@ -2,7 +2,7 @@ html {
   /* px means "pixels". The base font size is now 10 pixels high */
   font-size: 20px;
   /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
-  font-family: "DotGothic16", sans-serif;
+  font-family: "M PLUS 1 Code", monospace;
   color: #1a1427;
   background-color: #c6b1f0;
   
@@ -13,6 +13,10 @@ body {
   width: 600px;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
+}
+
+h1 {
+  margin-top: 2px;
 }
 
 a, a:visited {
@@ -36,7 +40,12 @@ ul li {
 
 ul li a {
   padding: 14px 16px;
+  padding-left: 0px;
   text-decoration: none;
+}
+
+ul li a.active {
+  text-decoration: underline;
 }
 
 h4, h3{
